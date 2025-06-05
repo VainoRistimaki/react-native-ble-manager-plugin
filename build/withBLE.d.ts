@@ -2,10 +2,10 @@ import { ConfigPlugin } from "@expo/config-plugins";
 import { BackgroundMode } from "./withBLEBackgroundModes";
 export { BackgroundMode };
 declare const _default: ConfigPlugin<void | {
-    isBackgroundEnabled?: boolean | undefined;
-    neverForLocation?: boolean | undefined;
-    modes?: BackgroundMode[] | undefined;
-    bluetoothAlwaysPermission?: string | false | undefined;
-    bluetoothPeripheralPermission?: string | false | undefined;
+    isBackgroundEnabled?: boolean;
+    neverForLocation?: boolean;
+    modes?: BackgroundMode[];
+    bluetoothAlwaysPermission?: string | false;
+    bluetoothPeripheralPermission?: string | false;
 }>;
 export default _default;
